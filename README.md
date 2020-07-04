@@ -16,7 +16,7 @@ Advanced information retrieval systems should enable the users in expressing the
 In this work, we consider such an advanced retrieval system, where users can retrieve images from a database based on a multi-modal (image-text) query. 
 Specifically, the query text prompts some modification in the query image and the task is to retrieve images with the desired modifications. This task has applications in the domain of E-Commerce search, surveillance systems and internet search.
 
-The figure on the left shows a potential application scenario of this task.
+The figure shows a potential application scenario of this task.
 In this figure a user of an E-Commerce platform is interested in buying a dress, which should look similar to her friend’s dress, but the dress should be of white color with a ribbon sash. In this case, we would like the algorithm to retrieve some dresses with desired modifications in the query dress. 
 
 ## ComposeAE Architecture 
@@ -40,6 +40,10 @@ Some qualitative retrieval results on FashionIQ dataset are shown below:
 
 
 ## Description of the Code [(Copied From TIRG)](https://github.com/google/tirg/edit/master/README.md)
+The code is based on TIRG code. 
+Several significant changes have been made in every file for ease in readibility. 
+Important classes such as ComposeAE, ComplexProjectionModule etc have been added. 
+`datasets.py` and `test_retrieval.py` have been modified to add Fashion IQ dataset.
 
 - `main.py`: driver script to run training/testing
 - `datasets.py`: Dataset classes for loading images & generate training retrieval queries
@@ -79,7 +83,7 @@ Analogously, we also combine the validation sets to form a single validation set
 
 ## Running the Code
 
-For training & testing new models, pass the appropriate arguments. 
+For training and testing new models, pass the appropriate arguments. 
 
 For instance, for training original TIRG model on MITStates dataset run the following command:
 
@@ -122,8 +126,6 @@ It is important to note that before running the training of the models, BERT-as-
 Run the following command for monitoring loss and retrieval performance of the models:
 
 ```tensorboard --logdir ./logs/fashion200k/ --port 8898```
-
-
 
 
 
