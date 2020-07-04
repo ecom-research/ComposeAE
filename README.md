@@ -30,7 +30,6 @@ on the optimization problem.
 Our approach is able to outperform the state-of-the-art method TIRG on three benchmark datasets, namely: MIT-States, Fashion200k and Fashion IQ. 
 In order to ensure fair comparison, we introduce strong baselines by enhancing TIRG method. 
 
-## Instructions to run will be uploaded soon.
 ## Requirements and Installation
 * Python 3.6
 * [PyTorch](http://pytorch.org/) 1.2.0
@@ -38,6 +37,18 @@ In order to ensure fair comparison, we introduce strong baselines by enhancing T
 * [TensorBoard](https://github.com/TeamHG-Memex/tensorboard_logger)
 * Other packages can be found in [requirements.txt](https://github.com/ecom-research/ComposeAE/blob/master/requirements.txt)
 
+
+## [Description of the Code](https://github.com/google/tirg/edit/master/README.md)
+
+- `main.py`: driver script to run training/testing
+- `datasets.py`: Dataset classes for loading images & generate training retrieval queries
+- `text_model.py`: LSTM model to extract text features
+- `img_text_composition_models.py`: various image text compostion models 
+- `torch_function.py`: contains soft triplet loss function and feature normalization function
+- `test_retrieval.py`: functions to perform retrieval test and compute recall performance
+
+
+## Instructions to run will be uploaded soon.
 
 
 
