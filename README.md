@@ -2,7 +2,7 @@
 
 ## Introduction
 
-<img align="left" src="https://github.com/ecom-research/ComposeAE/blob/master/Teaser_v3.jpg" width="380">
+<img align="left" src="https://github.com/ecom-research/ComposeAE/blob/master/Teaser_v3.jpg" width="400">
 
 One of the peculiar features of human perception is multi-modality. We unconsciously attach attributes to objects, which can sometimes uniquely identify them. 
 For instance, when a person says apple, it is quite natural that an image of an apple, which may be green or red in color, forms in their mind. 
