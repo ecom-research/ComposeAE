@@ -41,7 +41,7 @@ Some qualitative retrieval results on FashionIQ dataset are shown below:
 
 ## Description of the Code [(Copied From TIRG)](https://github.com/google/tirg/edit/master/README.md)
 The code is based on TIRG code. 
-Several significant changes have been made in every file for ease in readibility. 
+Several significant changes have been made in every file.
 Important classes such as ComposeAE, ComplexProjectionModule etc have been added. 
 `datasets.py` and `test_retrieval.py` have been modified to add Fashion IQ dataset.
 
