@@ -76,16 +76,38 @@ We join the two annotations with the text ` and it` to get a description similar
 Furthermore, we combine the train sets of all three categories to form a bigger training set and train a single model on it. 
 Analogously, we also combine the validation sets to form a single validation set. 
 
-## Run
+## Running the Code
 
 For training & testing new models, pass the appropriate arguments. 
-For instance, for training original TIRG model run the following command.
+For instance, for training original TIRG model on MITStates dataset run the following command:
 
 ```
 python -W ignore  main.py --dataset=mitstates --dataset_path=../data/mitstates/  --model=tirg --loss=soft_triplet --learning_rate_decay_frequency=50000 --num_iters=160000 --weight_decay=5e-5 --comment=mitstates_tirg_original --log_dir ../logs/mitstates/
 ```
 
-## Instructions to run will be uploaded soon.
+For training TIRG with BERT model on MITStates dataset run the following command:
+
+```
+python -W ignore  main.py --dataset=mitstates --dataset_path=../data/mitstates/  --model=tirg --loss=soft_triplet --learning_rate_decay_frequency=50000 --num_iters=160000 --weight_decay=5e-5 --comment=mitstates_tirg_bert --log_dir ../logs/mitstates/ --use_bert True
+```
+
+For training TIRG with complete text query on MITStates dataset run the following command:
+
+```
+python -W ignore  main.py --dataset=mitstates --dataset_path=../data/mitstates/  --model=tirg --loss=soft_triplet --learning_rate_decay_frequency=50000 --num_iters=160000 --weight_decay=5e-5 --comment=mitstates_tirg_complete_text_query --log_dir ../logs/mitstates/ --use_complete_text_query True 
+```
+
+For training ComposeAE model on Fashion200k dataset run the following command:
+
+```
+python -W ignore  main.py --dataset=fashion200k --dataset_path=../data/fashion200k/  --model=composeAE --loss=batch_based_classification --learning_rate_decay_frequency=50000 --num_iters=160000 --use_bert True --use_complete_text_query True --weight_decay=5e-5 --comment=fashion200k_composeAE --log_dir ../logs/fashion200k/
+```
+
+For training RealSpaceConcatAE (ComposeAE model but with Concatenation in Real Space) on FashionIQ dataset run the following command:
+
+```
+python -W ignore  main.py --dataset=fashionIQ --dataset_path=../data/fashionIQ/  --model=RealSpaceConcatAE --loss=batch_based_classification --learning_rate_decay_frequency=8000 --num_iters=100000 --use_bert True --use_complete_text_query True --comment=fashionIQ_RealSpaceConcatAE --log_dir ../logs/fashionIQ/
+```
 
 
 
