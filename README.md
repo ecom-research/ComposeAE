@@ -51,15 +51,15 @@ In order to ensure fair comparison, we introduce strong baselines by enhancing T
 
 ### Download the datasets
 * MITStates dataset
-Download the dataset via this [link](http://web.mit.edu/phillipi/Public/states_and_transformations/index.html) and save it in ``data`` folder.
+Download the dataset via this [link](http://web.mit.edu/phillipi/Public/states_and_transformations/index.html) and save it in the ``data`` folder.
 
 Kindly take care that the dataset should have these files:
 
-`data/mitstates/images/<adj noun>/*.jpg`
+```data/mitstates/images/<adj noun>/*.jpg```
 
 
 * Fashion200k dataset
-Download the dataset via this [link](https://github.com/xthan/fashion-200k).
+Download the dataset via this [link](https://github.com/xthan/fashion-200k) and save it in the ``data`` folder.
 To ensure fair comparison, we employ the same test queries as TIRG. They can be downloaded from [here](https://storage.googleapis.com/image_retrieval_css/test_queries.txt).
 
 Kindly take care that the dataset should have these files:
@@ -69,8 +69,13 @@ data/fashion200k/labels/*.txt
 data/fashion200k/women/<category>/<caption>/<id>/*.jpeg
 data/fashion200k/test_queries.txt`
 ```
-* FashionIQ dataset
 
+* FashionIQ dataset
+Download the dataset via this [link](https://github.com/XiaoxiaoGuo/fashion-iq) and save it in the ``data`` folder.
+The dataset consists of three non-overlapping subsets, namely `dress`, `top-tee` and `shirt`. 
+We join the two annotations with the text ` and it` to get a description similar to a normal sentence a user might ask on an E-Com platform. 
+Furthermore, we combine the train sets of all three categories to form a bigger training set and train a single model on it. 
+Analogously, we also combine the validation sets to form a single validation set. 
 
 ## Run
 
