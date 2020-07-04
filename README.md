@@ -38,7 +38,7 @@ In order to ensure fair comparison, we introduce strong baselines by enhancing T
 * Other packages can be found in [requirements.txt](https://github.com/ecom-research/ComposeAE/blob/master/requirements.txt)
 
 
-## [Description of the Code](https://github.com/google/tirg/edit/master/README.md)
+## Description of the Code [(Copied From TIRG)](https://github.com/google/tirg/edit/master/README.md)
 
 - `main.py`: driver script to run training/testing
 - `datasets.py`: Dataset classes for loading images & generate training retrieval queries
