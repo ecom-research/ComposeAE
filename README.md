@@ -47,6 +47,39 @@ In order to ensure fair comparison, we introduce strong baselines by enhancing T
 - `torch_function.py`: contains soft triplet loss function and feature normalization function
 - `test_retrieval.py`: functions to perform retrieval test and compute recall performance
 
+## Running the experiments 
+
+### Download the datasets
+* MITStates dataset
+Download the dataset via this [link](http://web.mit.edu/phillipi/Public/states_and_transformations/index.html) and save it in ``data`` folder.
+
+Kindly take care that the dataset should have these files:
+
+`data/mitstates/images/<adj noun>/*.jpg`
+
+
+* Fashion200k dataset
+Download the dataset via this [link](https://github.com/xthan/fashion-200k).
+To ensure fair comparison, we employ the same test queries as TIRG. They can be downloaded from [here](https://storage.googleapis.com/image_retrieval_css/test_queries.txt).
+
+Kindly take care that the dataset should have these files:
+
+```
+data/fashion200k/labels/*.txt
+data/fashion200k/women/<category>/<caption>/<id>/*.jpeg
+data/fashion200k/test_queries.txt`
+```
+* FashionIQ dataset
+
+
+## Run
+
+For training & testing new models, pass the appropriate arguments. 
+For instance, for training original TIRG model run the following command.
+
+```
+python -W ignore  main.py --dataset=mitstates --dataset_path=../data/mitstates/  --model=tirg --loss=soft_triplet --learning_rate_decay_frequency=50000 --num_iters=160000 --weight_decay=5e-5 --comment=mitstates_tirg_original --log_dir ../logs/mitstates/
+```
 
 ## Instructions to run will be uploaded soon.
 
