@@ -28,7 +28,8 @@ on the optimization problem.
 
 ## Results
 Our approach is able to outperform the state-of-the-art method TIRG on three benchmark datasets, namely: MIT-States, Fashion200k and Fashion IQ. 
-In order to ensure fair comparison, we introduce strong baselines by enhancing TIRG method. 
+Some qualitative retrieval results on FashionIQ dataset are shown below:
+![Qual](FIQ_Retrieval.jpg)
 
 ## Requirements and Installation
 * Python 3.6
