@@ -51,18 +51,14 @@ In order to ensure fair comparison, we introduce strong baselines by enhancing T
 
 ### Download the datasets
 * MITStates dataset
-Download the dataset via this [link](http://web.mit.edu/phillipi/Public/states_and_transformations/index.html) and save it in the ``data`` folder.
-
-Kindly take care that the dataset should have these files:
+Download the dataset via this [link](http://web.mit.edu/phillipi/Public/states_and_transformations/index.html) and save it in the ``data`` folder. Kindly take care that the dataset should have these files:
 
 ```data/mitstates/images/<adj noun>/*.jpg```
 
 
 * Fashion200k dataset
 Download the dataset via this [link](https://github.com/xthan/fashion-200k) and save it in the ``data`` folder.
-To ensure fair comparison, we employ the same test queries as TIRG. They can be downloaded from [here](https://storage.googleapis.com/image_retrieval_css/test_queries.txt).
-
-Kindly take care that the dataset should have these files:
+To ensure fair comparison, we employ the same test queries as TIRG. They can be downloaded from [here](https://storage.googleapis.com/image_retrieval_css/test_queries.txt). Kindly take care that the dataset should have these files:
 
 ```
 data/fashion200k/labels/*.txt
