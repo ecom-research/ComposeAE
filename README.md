@@ -6,7 +6,7 @@ In this work, we investigate the problem of retrieving images from a database ba
 Specifically, the query text prompts some modification in the query image and the task is to retrieve images with the desired modifications. 
 ## Teaser Figure
 
-<img align="left" src="https://github.com/ecom-research/ComposeAE/blob/master/Teaser_v3.jpg" width="380">
+<img align="left" src="https://github.com/ecom-research/ComposeAE/blob/master/Teaser_v3.jpg" width="320">
 
 For instance, a user of an E-Commerce platform is interested in buying a dress, which should look similar to her friend’s dress, but the dress should be of white color with a ribbon sash. In this case, we would like the algorithm to retrieve some dresses with desired modifications in the query
 dress. 
