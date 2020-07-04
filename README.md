@@ -1,4 +1,5 @@
 # Compositional Learning of Image-Text Query for Image Retrieval 
+## Code is available.
 
 ## Introduction
 
@@ -17,8 +18,6 @@ The figure on the left shows a potential application scenario of this task.
 In this figure a user of an E-Commerce platform is interested in buying a dress, which should look similar to her friend’s dress, but the dress should be of white color with a ribbon sash. In this case, we would like the algorithm to retrieve some dresses with desired modifications in the query
 dress. 
 
- 
-
 ## ComposeAE Architecture 
 We propose an autoencoder based model, ComposeAE, to learn the composition of image and text query
 for retrieving images. We adopt a deep metric learning approach and learn a metric that pushes composition
@@ -30,8 +29,23 @@ on the optimization problem.
 Our approach is able to outperform the state-of-the-art method TIRG on three benchmark datasets, namely: MIT-States, Fashion200k and Fashion IQ. 
 In order to ensure fair comparison, we introduce strong baselines by enhancing TIRG method. 
 
-
-
-## Code is available.
-
 ## Instructions to run will be uploaded soon.
+## Requirements and Installation
+* Python 3.6
+* [PyTorch](http://pytorch.org/) 1.2.0
+* [NumPy](http://www.numpy.org/) (1.16.4)
+* [TensorBoard](https://github.com/TeamHG-Memex/tensorboard_logger)
+* Other packages can be found in [requirements.txt] (https://github.com/ecom-research/ComposeAE/blob/master/requirements.txt)
+
+
+
+
+
+
+
+
+
+
+
+
+
