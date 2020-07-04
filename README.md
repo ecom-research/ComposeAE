@@ -39,7 +39,7 @@ Some qualitative retrieval results on FashionIQ dataset are shown below:
 * Other packages can be found in [requirements.txt](https://github.com/ecom-research/ComposeAE/blob/master/requirements.txt)
 
 
-## Description of the Code [(Copied From TIRG)](https://github.com/google/tirg/edit/master/README.md)
+## Description of the Code [(From TIRG)](https://github.com/google/tirg/edit/master/README.md)
 The code is based on TIRG code. 
 Several significant changes have been made in every file.
 Important classes such as ComposeAE, ComplexProjectionModule etc have been added. 
