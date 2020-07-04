@@ -79,6 +79,7 @@ Analogously, we also combine the validation sets to form a single validation set
 ## Running the Code
 
 For training & testing new models, pass the appropriate arguments. 
+
 For instance, for training original TIRG model on MITStates dataset run the following command:
 
 ```
@@ -108,6 +109,19 @@ For training RealSpaceConcatAE (ComposeAE model but with Concatenation in Real S
 ```
 python -W ignore  main.py --dataset=fashionIQ --dataset_path=../data/fashionIQ/  --model=RealSpaceConcatAE --loss=batch_based_classification --learning_rate_decay_frequency=8000 --num_iters=100000 --use_bert True --use_complete_text_query True --comment=fashionIQ_RealSpaceConcatAE --log_dir ../logs/fashionIQ/
 ```
+
+## Notes:
+### Running the BERT model
+ComposeAE uses pretrained BERT model for encoding the text query. 
+Concretely, we employ BERT-as-service and use Uncased BERT-Base which outputs a 768-dimensional feature vector for a text query. 
+Detailed instructions on how to use it, can be found [here](https://github.com/hanxiao/bert-as-service).
+It is important to note that before running the training of the models, BERT-as-service should already be running in the background.
+
+### Monitoring Performance via tensorboard
+Run the following command for monitoring loss and retrieval performance of the models:
+
+```tensorboard --logdir ./logs/fashion200k/ --port 8898```
+
 
 
 
