@@ -1,5 +1,5 @@
-# Compositional Learning of Image-Text Query for Image Retrieval 
-## Code is available.
+# Compositional Learning of Image-Text Query for Image Retrieval - Accepted at WACV 2021
+The paper can be accessed at: https://arxiv.org/pdf/2006.11149.pdf
 
 ## Introduction
 
