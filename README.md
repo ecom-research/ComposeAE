@@ -134,8 +134,18 @@ Run the following command for monitoring loss and retrieval performance of the m
 ```tensorboard --logdir ./logs/fashion200k/ --port 8898```
 
 
-
-
+### Monitoring Performance via tensorboard
+If you find this code useful in your research then please cite
+```
+@misc{anwaar2020compositional,
+title={Compositional Learning of Image-Text Query for Image Retrieval},
+author={Muhammad Umer Anwaar and Egor Labintcev and Martin Kleinsteuber},
+year={2020},
+eprint={2006.11149},
+archivePrefix={arXiv},
+primaryClass={cs.CV}
+}
+```
 
 
 
