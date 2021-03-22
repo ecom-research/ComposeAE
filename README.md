@@ -4,8 +4,8 @@
 
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/compositional-learning-of-image-text-query/image-retrieval-with-multi-modal-query-on-1)](https://paperswithcode.com/sota/image-retrieval-with-multi-modal-query-on-1?p=compositional-learning-of-image-text-query)
 
-# Compositional Learning of Image-Text Query for Image Retrieval - Accepted at WACV 2021
-The paper can be accessed at: https://arxiv.org/pdf/2006.11149.pdf
+# Compositional Learning of Image-Text Query for Image Retrieval : WACV 2021
+The paper can be accessed at: https://arxiv.org/pdf/2006.11149.pdf. This is the code accompanying the WACV 2021 paper: Compositional Learning of Image-Text Query for Image Retrieval.
 
 ## Introduction
 
@@ -134,7 +134,7 @@ Run the following command for monitoring loss and retrieval performance of the m
 ```tensorboard --logdir ./logs/fashion200k/ --port 8898```
 
 
-### Monitoring Performance via tensorboard
+### Citation
 If you find this code useful in your research then please cite
 ```
 @misc{anwaar2020compositional,
