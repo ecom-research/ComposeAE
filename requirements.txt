@@ -179,7 +179,7 @@ pytorch-fast-elmo==0.6.12
 pytorch-stateful-lstm==1.6.0
 pytz==2018.4
 PyWavelets==1.1.1
-PyYAML==3.12
+PyYAML==5.4
 pyzmq==19.0.1
 QtAwesome==0.4.4
 qtconsole==4.3.1
