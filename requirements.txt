@@ -235,7 +235,7 @@ transformers==2.3.0
 typing==3.6.4
 typing-extensions==3.7.4
 unicodecsv==0.14.1
-urllib3==1.23
+urllib3==1.26.5
 wasabi==0.2.2
 wcwidth==0.1.7
 webencodings==0.5.1
