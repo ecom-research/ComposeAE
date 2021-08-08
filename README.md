@@ -137,13 +137,13 @@ Run the following command for monitoring loss and retrieval performance of the m
 ### Citation
 If you find this code useful in your research then please cite
 ```
-@misc{anwaar2020compositional,
-title={Compositional Learning of Image-Text Query for Image Retrieval},
-author={Muhammad Umer Anwaar and Egor Labintcev and Martin Kleinsteuber},
-year={2020},
-eprint={2006.11149},
-archivePrefix={arXiv},
-primaryClass={cs.CV}
+@InProceedings{Anwaar_2021_WACV,
+    author    = {Anwaar, Muhammad Umer and Labintcev, Egor and Kleinsteuber, Martin},
+    title     = {Compositional Learning of Image-Text Query for Image Retrieval},
+    booktitle = {Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)},
+    month     = {January},
+    year      = {2021},
+    pages     = {1140-1149}
 }
 ```
 
