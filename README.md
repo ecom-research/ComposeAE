@@ -2,8 +2,6 @@
 
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/compositional-learning-of-image-text-query/image-retrieval-with-multi-modal-query-on)](https://paperswithcode.com/sota/image-retrieval-with-multi-modal-query-on?p=compositional-learning-of-image-text-query)
 
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/compositional-learning-of-image-text-query/image-retrieval-with-multi-modal-query-on-1)](https://paperswithcode.com/sota/image-retrieval-with-multi-modal-query-on-1?p=compositional-learning-of-image-text-query)
-
 # Compositional Learning of Image-Text Query for Image Retrieval : WACV 2021
 The paper can be accessed at: https://arxiv.org/pdf/2006.11149.pdf. This is the code accompanying the WACV 2021 paper: Compositional Learning of Image-Text Query for Image Retrieval.
 
